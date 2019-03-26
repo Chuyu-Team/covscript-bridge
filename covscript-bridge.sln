@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSBuild", "MSBuild", "{C2A2
 	ProjectSection(SolutionItems) = preProject
 		MSBuild\AllReleaseTargets.props = MSBuild\AllReleaseTargets.props
 		MSBuild\AllTargets.props = MSBuild\AllTargets.props
+		MSBuild\VC-LTL.props = MSBuild\VC-LTL.props
 	EndProjectSection
 EndProject
 Global
