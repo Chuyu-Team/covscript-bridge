@@ -16,6 +16,7 @@
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)BCDAPI.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)CBS++API.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Plugin.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="$(MSBuildThisFileDirectory)Dism++ARM64.lib" />
