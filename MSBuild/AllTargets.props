@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- "R2VudWluZUNodXl1VGVhbQ" is the base64 code of "GenuineChuyuTeam" -->
+    <OutDir>$(SolutionDir)Output\$(Configuration)\CovScriptBridge_R2VudWluZUNodXl1VGVhbQ\</OutDir>
+    <IntDir>$(SolutionDir)Output\$(Configuration)\CovScriptBridge_R2VudWluZUNodXl1VGVhbQ\Temp\</IntDir>
+    <TargetName Condition="'$(Platform)'=='Win32'">Plugin.x86</TargetName>
+    <TargetName Condition="'$(Platform)'=='x64'">Plugin.amd64</TargetName>
+    <TargetName Condition="'$(Platform)'=='ARM64'">Plugin.arm64</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>

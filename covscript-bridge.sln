@@ -7,6 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "covscript-bridge", "covscri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dism++SDK", "Dism++SDK\Dism++SDK.vcxitems", "{6AC0BD55-4D8E-4AE0-A10C-2A10A5F84460}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSBuild", "MSBuild", "{C2A266C2-992A-462A-95ED-2135D1EB75D0}"
+	ProjectSection(SolutionItems) = preProject
+		MSBuild\AllReleaseTargets.props = MSBuild\AllReleaseTargets.props
+		MSBuild\AllTargets.props = MSBuild\AllTargets.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Dism++SDK\Dism++SDK.vcxitems*{6ac0bd55-4d8e-4ae0-a10c-2a10a5f84460}*SharedItemsImports = 9
