@@ -1,0 +1,3 @@
+[submodule "covscript"]
+	path = covscript
+	url = https://github.com/covscript/covscript
